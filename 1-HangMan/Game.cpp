@@ -1,12 +1,6 @@
 //Hangman
 //by hantaro
-#include<random>
 #include<iostream>
-#include<fstream>
-#include<string>
-#include<istream>
-#include<ctime>
-#include<vector>
 #include "Hangman.h"
 using namespace std;
 
