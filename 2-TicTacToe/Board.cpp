@@ -73,11 +73,7 @@ bool Board::Tie()
 	for (int i = 0; i < 9; i++)
 	{
 		if (_board[i] != 'x' && _board[i] != 'o')
-		{
-			cout << "here" << endl;
 			return false;
-			
-		}
 	}
 	
 	return true;
