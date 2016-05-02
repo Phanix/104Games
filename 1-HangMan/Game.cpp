@@ -9,7 +9,6 @@ int main()
 	
 	Hangman newGame;
 	newGame.CreateBoad();
-	newGame.printSecret();
 	char choice;
 	while (!newGame.CheckWin()){
 		cin.clear();
