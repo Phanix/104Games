@@ -53,16 +53,7 @@ int main()
 {
 	
 	vector<int> pcCards;
-	
 	vector<int>playerCards;
-	//player variables
-	/*
-	int ncards = 0;
-	int sumCards = 0;
-	//pc variables
-	int nPcCards = 0;
-	int pcSumCards = 0;
-	*/
 	int money = 0;
 	bool play = false;
 	int choice;
