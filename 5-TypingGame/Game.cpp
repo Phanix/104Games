@@ -68,6 +68,8 @@ int main()
             play = false;
             win = true;
         }
+        if(missed == 100)
+            play = false;
 
         if(letter_position_x > height){
             letter_position_x = 0;
